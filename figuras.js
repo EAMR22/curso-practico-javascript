@@ -46,11 +46,26 @@ function calcularPerimetroCuadrado(){ // Es la funcion del boton del HTML.
 }
 
 function calcularAreaCuadrado(){ // Es la funcion del boton del HTML.
-    const input = document.getElementById("InputCuadrado"); // Aqui traemos el digito que digitoel usuario en el input.
+    const input = document.getElementById("InputCuadrado"); // Aqui traemos el digito del usuario en el input.
     const value = input.value; // Obtenemos el valor del usuario.
 
     const area = areaCuadrado(value);
     alert(area);
+}
+
+function calcularPerimetroTriangulo(){
+    const input1 = document.getElementById("inputLado1Triangulo");
+    const input2 = document.getElementById("inputLado2Triangulo");
+    const inputBase = document.getElementById("inputBaseTriangulo");
+    const inputAltura = document.getElementById("inputAlturaTriangulo");
+
+    const valueInput1 = input1.value;
+    const valueInput2 = input2.value;
+    const valueBase = inputBase.value;
+    const valueAltura = inputAltura.value;
+
+    const perimetro = perimetroTriangulo(valueInput1, valueInput2, valueBase);
+    alert(perimetro);
 }
 
 /*
