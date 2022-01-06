@@ -30,7 +30,7 @@ function esPar(numerito){
 let mediana;
 
 if (esPar(lista1.length)){
-    const elemento1 = lista1[mitadLista1 - 1];
+    const elemento1 = lista1[mitadLista1 - 1]; // Regresa a la posicion anterior de la mitad de la lista.
     const elemento2 = lista1[mitadLista1];
 
     const promedioElemento1y2 = calcularMediaAritmetica([ //Reutiliza la funcion del promedio.
