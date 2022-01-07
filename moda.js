@@ -13,8 +13,8 @@ lista1.map(
     }
 );
 
-const lista1Array = Object.entries(lista1Count).sort( // Transforma un objeto en un array.
-    function (elementoA, elementoB){ // Con sort en esta funcion esta ordenando los elementos de mayor a menor.
+const lista1Array = Object.entries(lista1Count).sort( // Con object.entries transforma un objeto en un array.
+    function (elementoA, elementoB){ // Con sort en esta funcion esta ordenando los elementos de la segunda columna de menor a mayor.
         return elementoA[1] - elementoB[1]; 
     }
 ); 

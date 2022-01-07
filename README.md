@@ -22,3 +22,10 @@
 - Segundo paso: implementar las fórmulas en javacript
 - tercer paso: crear funciones
 - cuarto paso: integrar JS con HTML.
+
+## Taller #4: Salarios de cada pais
+
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar las fórmulas en javacript
+- tercer paso: crear funciones
+- cuarto paso: integrar JS con HTML.

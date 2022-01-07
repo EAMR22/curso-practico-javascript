@@ -53,21 +53,6 @@ function calcularAreaCuadrado(){ // Es la funcion del boton del HTML.
     alert(area);
 }
 
-function calcularPerimetroTriangulo(){
-    const input1 = document.getElementById("inputLado1Triangulo");
-    const input2 = document.getElementById("inputLado2Triangulo");
-    const inputBase = document.getElementById("inputBaseTriangulo");
-    const inputAltura = document.getElementById("inputAlturaTriangulo");
-
-    const valueInput1 = input1.value;
-    const valueInput2 = input2.value;
-    const valueBase = inputBase.value;
-    const valueAltura = inputAltura.value;
-
-    const perimetro = perimetroTriangulo(valueInput1, valueInput2, valueBase);
-    alert(perimetro);
-}
-
 /*
 Esto sirve para encapsular los console.log
 #Abres
