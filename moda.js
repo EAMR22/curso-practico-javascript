@@ -5,7 +5,7 @@ const lista1Count = {};
 lista1.map(
     function (elemento){
         if(lista1Count[elemento]){
-            //lista1Count[elemento] = lista1Count[elemento] + 1;
+            // lista1Count[elemento] = lista1Count[elemento] + 1;
             lista1Count[elemento] += 1; // Aqui lo esta sumando en cada iteraccion.
         } else {
             lista1Count[elemento] = 1; // Esta instruccion nos indica que solo a aparecido una vez.
